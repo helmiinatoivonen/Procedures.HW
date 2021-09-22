@@ -6,20 +6,16 @@ public class Main {
 /*    {
         // ex. 2
 
-        System.out.println(sumUpTo(2)+ " ");
+    for (int i = 1; i <= 20; i++)
+        System.out.println(sumUpTo(n));
 
     }
 
     static int sumUpTo (int n)
     {
 
-    for (int i = 1; i <= 20; i++)
-    {
+    return ((n*(n+1))/2);
 
-        n = n * (n + 1)) / 2;
-
-    }
-        return n;
     }
     }*/
 
