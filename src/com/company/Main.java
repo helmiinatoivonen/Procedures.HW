@@ -134,10 +134,12 @@ public class Main {
     {
         int count = 0;
         int number = 1;
-        while (count != 100){
-            if(prime(number))
+        
+        while (count != 100)
+        {
+            if (prime(number))
             {
-                System.out.println(number);
+                System.out.println (number);
                 count++;
             }
 
