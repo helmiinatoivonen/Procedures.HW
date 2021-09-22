@@ -3,21 +3,25 @@ package com.company;
 public class Main {
 
     public static void main(String[] args)
-    /*
-    {
+/*    {
         // ex. 2
 
-        for (int n = 1; n <= 20; n++)
-        System.out.print (sumUpTo (n) + " ");
+        System.out.println(sumUpTo(2)+ " ");
+
     }
 
     static int sumUpTo (int n)
     {
-        return (n * (n + 1)) / 2;
+
+    for (int i = 1; i <= 20; i++)
+    {
+
+        n = n * (n + 1)) / 2;
 
     }
+        return n;
     }
-    */
+    }*/
 
 //--------------------------------------------------------------------------
 
@@ -132,18 +136,16 @@ public class Main {
     }
     static int printPrime (int n)
     {
-        for (int i = 2; i <= n; i++)
-        {
-            if (prime(i))
-                System.out.print (i + " ");
+        int count = 0;
+        int number = 1;
+        while (count != 100){
+            if(prime(number))
+            {
+                System.out.println(number);
+                count++;
+            }
 
-        }
-
-        for (int j = 2; j <= 100; j++)
-        {
-            if (!prime(j))
-                break;
-
+            number++;
         }
 
         return n;
